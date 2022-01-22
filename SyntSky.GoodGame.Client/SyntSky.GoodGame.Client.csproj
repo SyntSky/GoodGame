@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>SyntSky</Authors>
+        <PackageTags>SyntSky;GoodGame</PackageTags>
+        <Copyright>Copyright (c) SyntSky 2022</Copyright>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/SyntSky/GoodGame</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SyntSky.GoodGame.Communication\SyntSky.GoodGame.Communication.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Enums.NET" Version="4.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0"/>
+    </ItemGroup>
+
+</Project>
