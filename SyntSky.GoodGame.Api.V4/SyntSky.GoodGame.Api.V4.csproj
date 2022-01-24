@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>Simple GoodGame Api version 4</Description>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>SyntSky</Authors>
+        <PackageTags>SyntSky;GoodGame</PackageTags>
+        <Copyright>Copyright (c) SyntSky 2022</Copyright>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/SyntSky/GoodGame</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SyntSky.GoodGame.Api.Core\SyntSky.GoodGame.Api.Core.csproj"/>
+    </ItemGroup>
+
+</Project>
